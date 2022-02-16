@@ -18,7 +18,7 @@ namespace BankingCashCounter
             System.Console.WriteLine(user+" Users are in Cash Counter queue ");
             for (int i = 1; i <=user; i++)
             {
-                int option = random.Next(1,4);
+                int option = random.Next(1,3);
 
                 switch (option)
                 {
@@ -29,8 +29,6 @@ namespace BankingCashCounter
                     case 2:
                         queue.Enqueue(i);
                         counter.Deposit();
-                        break;
-                    case 3:
                         break;
                     default:
                         System.Console.WriteLine("Invalid Proceess");

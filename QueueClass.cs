@@ -22,7 +22,6 @@ namespace BankingCashCounter
                 }
                 temp.next = node;
             }
-            // System.Console.WriteLine(node.data+" inserted in the Queue");
             System.Console.WriteLine(node.data);
         }
 
